@@ -4,13 +4,14 @@ public class FedorandNewGame {
 
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
-		
+
 		int n=in.nextInt();
 		int m=in.nextInt();
 		int k=in.nextInt();
 		int i;
 		int[] a = new int[m+1];
 		for(i=0;i<m+1;i++) {
+
 			int dec =in.nextInt();
 			a[i]=dec;
 		}
@@ -35,7 +36,7 @@ public class FedorandNewGame {
 				while(ind>=0) {
 					char c1;
 					char c2;
-					
+
 					if(binlen<l) {
 						if(ind<lendif) {
 							c1='0';
@@ -46,7 +47,7 @@ public class FedorandNewGame {
 					}else {
 						c1=bin.charAt(ind);
 					}
-					
+
 					if(cplen<l) {
 						if(ind>=lendif) {
 							c2=cp.charAt(ind-lendif);
@@ -56,33 +57,33 @@ public class FedorandNewGame {
 					}else {
 						c2=cp.charAt(ind);
 					}
-					
+
 //						System.out.println(c1+" "+c2);
-		
+
 //					if((c1!=c2)&&((c1==1&&c2==0)||(c1==0&&c2==1))) {
 //						dif++;
 //						System.out.println(c1+" "+c2);
-//						
+//
 //					}
 					if((c1=='1'&&c2=='0')||(c1=='0'&&c2=='1')) {
 						dif++;
 					}
-						
+
 					ind--;
 				}
 				if(dif<=k) {
 //					System.out.println(dif);
 					ans++;
 
-				}	
-				
-					
+				}
+
+
 			}
-		
+
 		}
-		
+
 		System.out.println(ans);
-		
+
 	}
-	
+
 }
