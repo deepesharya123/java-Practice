@@ -9,6 +9,7 @@ public class NearestInterestingNumber {
 		while(run!=0) {
 			int n = a+i;
 			i++;
+
 			int sum=0;
 			int cn = n;
 			while(cn!=0) {
