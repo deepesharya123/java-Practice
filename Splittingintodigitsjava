@@ -1,0 +1,126 @@
+import java.util.Scanner;
+public class Splittingintodigits {
+
+	public static void main(String args[]) {
+		Scanner in =  new Scanner(System.in);
+		
+		int n =in.nextInt();
+		
+		int i;
+		
+		System.out.println(n);
+		for(i=0;i<n;i++)
+			System.out.print("1"+" ");
+		
+		
+//		int[] idq = new int[10];
+//		int[] idr = new int[10];
+//		int[] idtd = new int[10];
+//		
+//		for(i=1;i<10;i++) {
+//			int cn =n;
+//			int r=-1;
+//			int div = cn%i;
+//			int d=-1;
+//			if(div==0) {
+//				d=cn/i;
+//			}
+//			else {
+//				d=cn/i;
+//				r=div;
+//			}
+//			
+//			int[] digits = new int[10];
+//			int cd=d;
+//			int cr=r;
+////			27
+////			3
+////			9 9 9 
+//			int td = n/i;
+//			if(r!=-1) td+=1;
+//			int ctd=td;
+////			System.out.println(td+" "+cd+" "+cr+" "+i);
+////			System.out.println();
+//			while(cd!=0) {
+//			int pk = cd%10;
+//			if(pk>0)
+//			digits[pk]++;
+//			cd=cd/10;
+//			}
+//			int ci=i;
+////			while(ci>0) {
+////				int pk = ci%10;
+////				digits[pk]++;
+////				ci/=10;
+////			}
+//			
+////			while(ctd!=0) {
+////			int pk = ctd%10;
+////			digits[pk]++;
+////			ctd/=10;
+////			}
+////			System.out.println(cr);
+//			while(cr>0) {
+//				int pk= cr%10;
+//				digits[pk]++;
+//				cr/=10;
+//			}
+//			
+//			
+//			int j=0;
+//			int c=0;
+//			for(j=0;j<10;j++) {
+//				if(digits[j]!=0)
+//					c++;
+//			}
+////			System.out.println(c);
+//			idq[i]=d;
+//			idr[i]=r;
+//			
+//			idtd[i]=c;
+////			System.out.println(idtd[i]);
+////			System.out.println(r+"is the rem"+ i);
+//			if(idr[i]!=-1) idq[i]++;
+//		}
+//		int csi=11;
+//		int reqi=-1;
+//		for(i=1;i<10;i++) {
+////			System.out.println(idq[i]+" "+idr[i]+" "+idtd[i]+" "+i);
+//			if(csi>idtd[i]) { 
+//				reqi=i; csi=idtd[i];
+//			}
+//		}
+//		
+////		System.out.println(reqi);
+////		if(idr[reqi]>-1) idq[reqi]+=1;
+//		System.out.println(idq[reqi]);
+//		int lpq = idq[reqi];
+////		System.out.println(lpq);
+//		int count=0;
+//		while(lpq!=0) {
+//			
+//			if(lpq>1)
+//			{			System.out.print(reqi+" ");
+//			count++;
+//			}else {
+//				if(idr[reqi]>-1) {
+//				System.out.print(idr[reqi]);
+////					System.out.println("AS");
+//				}
+//				else {
+//					System.out.print(reqi+" ");
+////					System.out.println("QW");
+//				}
+//				count++;
+//			}
+//			
+//			lpq--;
+//			
+//		}
+//		System.out.println();
+//		System.out.println(count);
+//		
+		
+	}
+	
+}
