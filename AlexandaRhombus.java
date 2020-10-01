@@ -6,7 +6,9 @@ public class AlexandaRhombus {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		int m=n-1;
-		int s = (n*n)+(m*m);
+		m*=m;
+		n*=m;
+		int s = (n)+(m);
 		System.out.println(s);
 	}
 	
