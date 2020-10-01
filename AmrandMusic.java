@@ -3,7 +3,7 @@ import java.util.Vector;
 
 public class AmrandMusic{
 
-	public static void mai(String args[]){
+	public static void main(String args[]){
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		
