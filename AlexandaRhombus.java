@@ -7,7 +7,7 @@ public class AlexandaRhombus {
 		int n = in.nextInt();
 		int m=n-1;
 		int s = (n*n)+(m*m);
-		System.out.println(s);
+		System.out.printl(s);
 	}
 	
 	
