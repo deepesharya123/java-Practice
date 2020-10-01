@@ -2,7 +2,7 @@ import java.util.Scanner
 
 public class AntonandDigits {
 
-	public static void main(String args[]) {
+	public static void mai(String args[]) {
 		Scanner in = new Scanner(System.in);
 		
 		int k2 = in.nextInt();
